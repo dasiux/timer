@@ -1,0 +1,29 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:js": "simple-webpack src demo -p -s",
+    "build:js:debug": "simple-webpack src demo -p -s --no-minify --keep-names",
+    "build": "run build:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasiux/timer.git"
+  },
+  "keywords": [],
+  "author": "siux <me@siux.info> (http://siux.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasiux/timer/issues"
+  },
+  "homepage": "https://github.com/dasiux/timer#readme",
+  "devDependencies": {
+    "@squirrel-forge/simple-webpack": "^0.12.x"
+  },
+  "dependencies": {
+    "@squirrel-forge/ui-util": "^0.9.x"
+  }
+}
