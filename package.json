@@ -5,8 +5,8 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:js": "simple-webpack src demo -p -s",
-    "build:js:debug": "simple-webpack src demo -p -s --no-minify --keep-names",
+    "build:js": "simple-webpack src docs -p -s",
+    "build:js:debug": "simple-webpack src docs -p -s --no-minify --keep-names",
     "build": "run build:js"
   },
   "repository": {
