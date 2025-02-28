@@ -4,8 +4,8 @@ import { Timer } from './lib/Timer';
 const DEBUG = document.body.getAttribute( 'data-debug' ) === 'true' || location.hash === '#debug' ? console : null;
 
 const timers = [
-    [ 1742482800, 'ka' ],
     [ 1742079600, 'cv' ],
+    [ 1742482800, 'ka' ],
     [ 1750975200, 'jk' ],
     [ 1756418400, 'dh' ],
     [ 1770595200, 'dj' ],
